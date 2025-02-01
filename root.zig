@@ -1,7 +1,5 @@
 const std = @import("std");
 pub const c = @cImport({
-    @cInclude("regex.h");
-    // This is our static library.
     @cInclude("adapter.h");
 });
 
